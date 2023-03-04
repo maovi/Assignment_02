@@ -1,0 +1,209 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+.container{
+max-width: 100%;
+min-width: 600px;
+margin: 10px auto;
+background-color:green;
+}
+hr{
+  border: 1px solid black;
+  margin: 6px auto;
+}
+.div-clear{
+  clear: both;
+}
+
+
+
+
+/* header start */
+.header{
+overflow: hidden;
+background-color: #6563;
+height:180px;
+}
+
+
+
+
+
+.h_p_pic{
+  float:left;
+  width: 15%;
+}
+.h_p_pic img{
+  width: 100%;
+  height: 180px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+
+
+
+
+.h_img{
+  float: left;
+  width:25%;
+}
+.h_img img{
+width:70%;
+height: 100px;
+margin-top: 80px;
+box-sizing: border-box;
+border: 3px solid black;
+border-radius: 10%;
+}
+
+
+
+
+
+.header_link {
+float:right;
+width: 55%;
+margin-top: 140px;
+}
+.header_link ol li{
+  display: inline-block;
+  padding:6px;
+  border: 1px solid black;
+  border-radius:50px ;
+  background-color:white;
+  font-size: 18px;
+  font-weight:bold;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:purple;
+  text-decoration: underline;
+  transition: 1.0;
+}
+/* header end */
+
+
+
+
+/* main start */
+.main{
+
+}
+.main_intro{
+  background-image: url(cover.webp);
+  padding: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+  font-size: 33px;
+  font-weight: bolder;
+  color:white;
+}
+
+
+
+
+
+
+
+.p1{
+  background-color:#656E39;
+  margin-top: 5px;
+}
+.p1 h1{
+  color: rgb(217, 255, 0);
+  margin: 10px;
+}
+.p1 pre{
+float: right;
+font-size: 16px;
+font-weight: bold;
+color: black;
+margin-right: 5px;
+}
+.p1 p{
+margin:4px 17px;
+text-align: justify;
+font-size: 21px;
+line-height: 30px;
+color:rgb(250, 253, 250);
+}
+/* main end */
+
+
+
+
+
+
+
+/* footer start */
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+
+
+
+.ule{
+  text-align: center;
+}
+.footer.ule ul{
+margin-top: 40px;
+}
+.footer ul li{
+  display: inline;
+}
+.footer ul li a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+
+.footer ol{
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.footer ol li{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.footer ol li img{
+  width: 50px;
+  height: 50px;
+  border: 2 solid white;
+  border-radius: 50%;
+}
+.footer ol li a{
+  color:black;
+  text-decoration: none;
+  font-size: 23px;
+  background-color: white;
+  font-weight: bold;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+.footer ol li a:hover{
+  color: green;
+  text-decoration: underline;
+}
+/* footer end */
